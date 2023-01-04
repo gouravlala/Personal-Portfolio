@@ -7,9 +7,10 @@ import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page } from "react-pdf";
 import {pdfjs} from "react-pdf"
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
+pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.js`;
 
-const resumeLink=  "https://raw.githubusercontent.com/gouravlala/Personal-Portfolio/master/my-portfolio/src/Assets/gouravlala_resume.pdf"
+//const resumeLink=  "https://raw.githubusercontent.com/gouravlala/Personal-Portfolio/master/my-portfolio/src/Assets/gouravlala_resume.pdf"
+const resumeLink ="https://raw.githubusercontent.com/gouravlala/Personal-Portfolio/master/my-portfolio/src/Assets/gouravlala_resume.pdf"
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
@@ -36,7 +37,7 @@ function ResumeNew() {
         </Row>
 
         <Row className="resume">
-          <Document file={resumeLink} className="d-flex justify-content-center">
+          <Document file={resumeLink} className="d-flex justify-content-center" >
           <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
           </Document>
         </Row>
