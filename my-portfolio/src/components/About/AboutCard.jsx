@@ -11,7 +11,9 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple"> Gourav Lala </span>
             from <span className="purple"> Kolkata, India.</span>
             <br />I am a aspiring web developer, and learning advance 
-            technology.
+            technology. <span className="purple">1200+ hours</span> of practical experience building numerous websites and applications.
+            Solved more than <span className="purple">200</span> data structure questions. 
+            Strongly interested in obtaining a fullStack web developer position to create impactful and scalable products.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!

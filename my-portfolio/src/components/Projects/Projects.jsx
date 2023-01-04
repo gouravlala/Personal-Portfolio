@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import FinalSugarCosmetics from "../../Assets/Projects/FinalSugarCosmetics.png";
 import SugarBlog from "../../Assets/Projects/SugarBlog.png";
 import TemplateForPortfolio from "../../Assets/Projects/TemplateForPortfolio.png";
+import Expensestracker from "../../Assets/Projects/Expenses-tracker.png";
 
 function Projects() {
   return (
@@ -58,7 +59,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={TemplateForPortfolio}
+              imgPath={Expensestracker}
               isBlog={false}
               title="Expenses Tracker"
               description="Used for track your daily expenses and income as well. with the help of react material UI, and local storage it fully able to visualize your activities of whole day."
