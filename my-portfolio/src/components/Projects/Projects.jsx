@@ -6,6 +6,9 @@ import FinalSugarCosmetics from "../../Assets/Projects/FinalSugarCosmetics.png";
 import SugarBlog from "../../Assets/Projects/SugarBlog.png";
 import TemplateForPortfolio from "../../Assets/Projects/TemplateForPortfolio.png";
 import Expensestracker from "../../Assets/Projects/Expenses-tracker.png";
+import Admin from "../../Assets/Projects/Admin.png"
+import Ecommerce from "../../Assets/Projects/E-commerce.png"
+import Privatewebsite from "../../Assets/Projects/Privatewebsite.png"
 
 function Projects() {
   return (
@@ -65,6 +68,41 @@ function Projects() {
               description="Used for track your daily expenses and income as well. with the help of react material UI, and local storage it fully able to visualize your activities of whole day."
               ghLink="https://github.com/gouravlala/Expanse-Tracker/tree/master/expenses-traker"
               demoLink="https://expenses-traker-by-gourav.netlify.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Admin}
+              isBlog={false}
+              title="FrontEnd Admin"
+              description="We will be using React, Material UI, Nivo Charts, Formik, Yup, FullCalendar, and Data Grid. This application consists of Light and Dark Mode, 4 different Charts, 3 different Data Table Pages, and Calendar Integration.."
+              ghLink="https://github.com/gouravlala/Responsive-MERN-App/tree/master/my-admin"
+              demoLink="https://gourav-admin.netlify.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Privatewebsite}
+              isBlog={false}
+              title="Personal Website"
+              description="I am using React hooks, modern CSS, swiper js, framer motion,
+              and for contact,the Emall js library. 
+              To make this site more functional and practical, i used implement dark and light mode with the useContext hook."
+              ghLink="https://github.com/gouravlala/GouravPortFolio"
+              demoLink="https://gourav-notupdated-portfolio.netlify.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Ecommerce}
+              isBlog={false}
+              title="Ecommerce"
+              description="I am using React hooks, modern CSS, swiper js, framer motion."
+              ghLink="https://github.com/gouravlala/JavaScript-project/tree/master/e-commerce"
+              demoLink="https://gourav-e-commerce.netlify.app/"
             />
           </Col>
         </Row>
