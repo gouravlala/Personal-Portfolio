@@ -52,7 +52,7 @@ function Projects() {
             <ProjectCard
               imgPath={TemplateForPortfolio}
               isBlog={false}
-              title="Templete for Portfolio"
+              title="Template for Portfolio"
               description="Build templete for portfolio with javaScript, 
               with functionlity download resume and css hover effect. "
               ghLink="https://github.com/gouravlala"
